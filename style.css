@@ -1,5 +1,5 @@
 div{
-    padding: ;
+    padding: 10;
 }
 h1{
     text-align: center;
@@ -11,7 +11,7 @@ p{
 }
 html{
     background-image: url(https://wallpapers.com/images/hd/santorini-sunset-landscape-in-greece-gwem5pscichariew.jpg);
-    background-size: cover;
+    background-size:contain;
 }
 body{
     background: rgba(255, 255, 255, 0.74);
