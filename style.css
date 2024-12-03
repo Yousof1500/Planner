@@ -1,0 +1,85 @@
+div{
+    padding: ;
+}
+h1{
+    text-align: center;
+    margin: auto;
+}
+p{
+    text-align: center;
+    margin: auto;
+}
+html{
+    background-image: url(https://wallpapers.com/images/hd/santorini-sunset-landscape-in-greece-gwem5pscichariew.jpg);
+    background-size: cover;
+}
+body{
+    background: rgba(255, 255, 255, 0.74);
+    width: 90%;
+    max-width: 800px;
+    border-radius: 50px q;
+    margin: 50px auto;
+    font-family: 'Raelway';
+    padding: 20px;
+    border-radius: 50px;
+
+}
+input,select{
+    display: block;
+    width: 100%;
+    font-size: 20px;
+    padding: 0.3em;
+    background-color: #fbfbfb;
+    border: solid 1px #ccc;
+    resize: vertical;
+    border-radius: 10px;
+}
+label{
+    display: block;
+    margin: 1em;
+    
+}
+
+input[type=checkbox],input[type=radio]{
+    display: inline;
+    width: auto;
+
+}
+.inline-label{
+    display: inline;
+    width: auto;
+    
+}
+option{
+    color: black;
+    background:white;
+
+}
+select{
+    color: indigo;
+    
+}
+input[type=submit]:hover,
+input[type=submit]:focus{
+    outline: none;
+    background: rgb(5,129,88);
+    color: white;
+}
+input[type=reset]:hover,
+input[type=reset]:focus{
+    outline: none;
+    background: rgb(192, 3, 18);
+    color: white;
+}
+input[type=reset],
+input[type=submit]{
+    background: rgb(27, 44, 141);
+    color: white;
+    margin-top: 0.5em;
+    border-radius: 10px;
+}
+p::first-letter{
+    font-size: xx-large;
+    color: red;
+    font-weight: bolder;
+}
